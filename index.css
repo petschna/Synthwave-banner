@@ -347,7 +347,7 @@ footer {
   /*background-color: rgba(0, 0, 0, 0.63);*/
 }
 .full .titlecontainer {
-  margin-top: 5vh;
+  margin-top: 100px;
 }
 
 .f {
@@ -358,28 +358,29 @@ footer {
 }
 
 .fm1 {
-    bottom: 5vh;
+    top: 0px;
     position: absolute;
 }
 
 .fm2 {
-    bottom: 5vh;
+    bottom: 0px;
     position: absolute;
 }
 
 .fm3 {
-    bottom: 5vh;
+    bottom: 0px;
     position: absolute;
 }
 
 .flaser {
-    top: 520px;
+    top: calc(60vh - 25px);
+    height: 50px;
     width: 100vw;
     position: absolute;
 }
 
 .fsynth {
-    bottom: -60vh;
+    top: 60vh;
     position: absolute;
 }
 
@@ -402,6 +403,24 @@ footer {
   height: 50vh;
   position: absolute;
   width: 100vw;
+}
+
+.f .cloud1{
+  opacity: 0.1;
+  top: 0px;
+  right: 5vw;
+  height: 500px;
+  margin-top: 0px;
+  position: absolute;
+}
+
+.f .cloud2{
+  opacity: 0.08;
+  top: 0px;
+  left: 10vw;
+  height: 500px;
+  margin-top: 0px;
+  position: absolute;
 }
 
 .f .eule {
