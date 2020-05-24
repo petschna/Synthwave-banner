@@ -358,17 +358,19 @@ footer {
 }
 
 .fm1 {
+    
     top: 0px;
     position: absolute;
 }
 
 .fm2 {
-    bottom: 0px;
+    
+    bottom: 2vh;
     position: absolute;
 }
 
 .fm3 {
-    bottom: 0px;
+    bottom: 9vh;
     position: absolute;
 }
 
